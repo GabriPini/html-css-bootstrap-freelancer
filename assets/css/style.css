@@ -5,7 +5,6 @@
 
 .debug .bg_header_img{
     background-color: rgb(64, 192, 132);
-    height: 400px;
 }
 
 .debug .bg_header_img2{
@@ -44,4 +43,12 @@ background-color: black;
     margin: 0;
 }
 
-
+.img_jumbo_size{
+    width: 300px;
+    padding-top: 50px;
+}
+img{
+    width: 100%;
+   
+    
+}
