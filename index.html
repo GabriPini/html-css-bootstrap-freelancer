@@ -10,57 +10,74 @@
 </head>
 <body class="debug">
 
-<header class="bg_header">
-<div class="container ">
-    <div class="row ">
-        <div class="col-10 text-light p-4">
-             <h4>START BOOTSTRAP</h4>  
-        </div>
-        <div class="col-2 text-light pt-4 ">
-            <i class="fa-solid fa-bars fa-xl p-3 border"></i>
-        </div>
-    </div>
-</div>
+<header>
+    <div id="nav-section">
+        <nav class="navbar navbar-expand-md navbar-dark" >
+            <div class="container">
+                <a id="ms_navbar-written-logo" class="navbar-brand text-uppercase fw-bold" href="#">Start bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarsExample04">
+                    <ul class="navbar-nav d-flex flex-grow-1 justify-content-end text-uppercase me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="#about-section">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="#contact-me" tabindex="-1">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+       </nav>
+ </div>
+    <div class="jumbotron_section bg_header_img">
+      <div class="container ">
        <div class="row">
-        <div class="col-12 bg_header_img text-center text-light">
+        <div class="col-12 text-center text-light">
             <img class="img_jumbo_size" src="assets/img/avatar.svg" alt="">
             <h1 class="display-2">START BOOTSTRAP<br> <i class="fa-solid fa-star"></i></h1>   
              <h5 class="p-4">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
         </div>
        </div>
+    </div>
+</div>
 </header>
 
 <main>
-<div class="container text-center mt-5 ">
+<div id="portfolio" class="container text-center mt-5 ">
     <h2>PORTFOLIO</h2>
      <span><i class="fa-solid fa-star"></i></span>
     <div class="row justify-content-center p-4">
-        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="rounded " src="assets/img/cabin.png" alt=""></div>
-        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="rounded " src="assets/img/cake.png" alt=""></div>
-        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="rounded " src="assets/img/circus.png" alt=""></div>
-        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="rounded " src="assets/img/game.png" alt=""></div>
-        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="rounded " src="assets/img/safe.png" alt=""></div>
-        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="rounded " src="assets/img/submarine.png" alt=""></div>
+        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="round_img " src="assets/img/cabin.png" alt=""></div>
+        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="round_img " src="assets/img/cake.png" alt=""></div>
+        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="round_img " src="assets/img/circus.png" alt=""></div>
+        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="round_img " src="assets/img/game.png" alt=""></div>
+        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="round_img" src="assets/img/safe.png" alt=""></div>
+        <div class="col-12 col-md-5 col-lg-3 m-1 g-1"><img class="round_img " src="assets/img/submarine.png" alt=""></div>
       
     
     </div>
 </div>
 <div class="bg_header_img2">
-<div class="container text-center text-light p-4">
+<div id="about-section" class="container text-center text-light p-4">
     <h2>ABOUT</h2>
     <span><i class="fa-solid fa-star"></i></span>
     <div class="row justify-content-center ">
         <div class="col-8 col-md-6 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corporis deserunt dolore hic suscipit culpa nesciunt. Aperiam nam laborum blanditiis voluptate iusto ad, architecto autem rem dolor excepturi, optio dolore?</div>
         <div class="col-8 col-md-6 p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi sapiente, illo soluta ad est expedita nam maxime aliquid. Amet a esse odit deserunt! Iure corporis, omnis quia commodi fugit ratione.</div>
     </div>
-    <button class="mt-3">download</button>
+    <button type="submit" class="btn btn-primary styl"><i class="fas fa-download"></i> Download</button>
 </div>
 
 </div>
 
 <div class="container">
 <div class="row">
-    <div class="col-12 p-4 text-center">
+    <div id="contact-me" class="col-12 p-4 text-center">
     <h2>CONTACT ME</h2>
     <span><i class="fa-solid fa-star"></i></span>
    </div>
@@ -77,39 +94,45 @@
         </div>
         <div class="col-12 p-4 mt-5">
             <hr>
-            <button>Send</button>
+            <button type="submit" class="btn btn-primary mt-3 bg_header_img b_n">Send</button>
         </div>
     </div>
 </div>
 </main>
 
-<footer class="footer-text-size">
-<div class="container  text-light text-center">
-    <div class="row ">
-        <div class="col-12 col-md-4  p-4 ">
-            <h4>LOCATION</h4>
-            <h5>2215 Jonh Daniel Drive Clark, MO 54243</h5>
+<footer>
+    <div class="footer_color">
+        <div class="container  text-light text-center">
+            <div class="row ">
+                <div class="col-12 col-md-4  p-4 ">
+                    <h4>LOCATION</h4>
+                    <h5>2215 Jonh Daniel Drive Clark, MO 54243</h5>
+                </div>
+                <div class="col-12 col-md-4 p-4 ">
+                    <h4>AROUND THE WEB</h4>
+                    <span>
+                        <i class="fa-brands fa-facebook-f border rounded-circle p-3"></i> 
+                        <i class="fa-brands fa-google-plus-g border rounded-circle p-3"></i>
+                        <i class="fa-brands fa-twitter border rounded-circle p-3"></i>
+                        <i class="fa-brands fa-linkedin-in border rounded-circle p-3"></i>
+                    </span>
+                </div>
+                <div class="col-12 col-md-4  p-4 ">
+                    <h4>ABOUT FREELANCER</h4>
+                    <h5>Freelance is a free to use, open source Bootstrap theme creadted by <span class="text-success">Start Bootstrap</span>.</h5>
+                </div>
+            </div>
         </div>
-        <div class="col-12 col-md-4 p-4 ">
-            <h4>AROUND THE WEB</h4>
-            <span>
-                <i class="fa-brands fa-facebook-f border rounded-circle p-3"></i> 
-                <i class="fa-brands fa-google-plus-g border rounded-circle p-3"></i>
-                <i class="fa-brands fa-twitter border rounded-circle p-3"></i>
-                <i class="fa-brands fa-linkedin-in border rounded-circle p-3"></i>
-            </span>
-        </div>
-        <div class="col-12 col-md-4  p-4 ">
-            <h4>ABOUT FREELANCER</h4>
-            <h5>Freelance is a free to use, open source Bootstrap theme creadted by <span class="text-success">Start Bootstrap</span>.</h5>
-        </div>
+            <div class="second_footer_color">
+                    <div class="container text-light text-center">
+                        <div class="row">
+                            <div class="col-12  p-4 ">
+                                <span>Copyright <i class="fa fa-copyright fa-regular" aria-hidden="true"></i> Your Website 2019</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
     </div>
-    <div class="row second_footer_bg">
-        <div class="col-12  p-4 ">
-            <span>Copyright <i class="fa fa-copyright fa-regular" aria-hidden="true"></i> Your Website 2019</span>
-        </div>
-    </div>
-</div>
 
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
