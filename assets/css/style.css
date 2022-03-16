@@ -29,10 +29,7 @@ img{
     border-radius: 15px;
 }
 
-.styl{
-    border: 1px solid white;
-    background-color: transparent;
-}
+
 
 textarea.form-control::placeholder,
 input.form-control::placeholder {
