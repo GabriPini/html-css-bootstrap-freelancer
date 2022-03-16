@@ -1,19 +1,16 @@
-
-
 #nav-section{
     background-color: rgb(44,62,80);
 }
-
 
 .bg_header_img{
     background-color: rgb(26,188,156);
 }
 
-
 .footer_color {
       
        background-color: rgb(58,84,109);
- }    
+ } 
+
 .second_footer_color{
     
     background-color: rgb(44,62,80);
@@ -32,12 +29,11 @@ img{
     border-radius: 15px;
 }
 
- .styl{
+.styl{
     border: 1px solid white;
     background-color: transparent;
 }
 
-.b_n{
-    border: none;
-}
-
+::placeholder {
+    color: rgb(0, 0, 0); 
+  }
