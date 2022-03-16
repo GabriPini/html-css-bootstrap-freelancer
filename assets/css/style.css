@@ -5,31 +5,19 @@
 }
 
 
-.debug .bg_header_img{
+.bg_header_img{
     background-color: rgb(26,188,156);
 }
 
-.debug .bg_header_img2{
-    background-color: rgb(26,188,156);
-    
-}
-.debug .img_size{
-height: 300px;
-   
-}
 
-
-
- .debug .footer_color {
+.footer_color {
       
        background-color: rgb(58,84,109);
-   }    
- .debug .second_footer_color
-   {
+ }    
+.second_footer_color{
     
     background-color: rgb(44,62,80);
-   }
-
+ }
 
 .img_jumbo_size{
     width: 300px;
