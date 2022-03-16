@@ -34,7 +34,7 @@ img{
     background-color: transparent;
 }
 
-::placeholder {
-    color: rgb(0, 0, 0); 
-    
-  }
+textarea.form-control::placeholder,
+input.form-control::placeholder {
+    color: black;
+}
