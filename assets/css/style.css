@@ -35,3 +35,27 @@ textarea.form-control::placeholder,
 input.form-control::placeholder {
     color: black;
 }
+
+
+.star::before,
+.star::after{
+    height: 4px;
+    width: 100px;
+    display: inline-block;
+    content: "";
+    
+}
+
+.jumbotron_section .star::before,
+.jumbotron_section .star::after,
+#about-section .star::before,
+#about-section .star::after{
+    background-color: rgb(255, 255, 255);
+}
+
+#portfolio .star::before,
+#portfolio .star::after,
+#contact-me .star::before,
+#contact-me .star::after{
+    background-color: black;
+}
