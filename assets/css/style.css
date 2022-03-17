@@ -59,3 +59,12 @@ input.form-control::placeholder {
 #contact-me .star::after{
     background-color: black;
 }
+
+.icons_container{
+    height: 50px;
+    width: 50px;
+}
+
+.icons{
+    column-gap: 6px;
+}
